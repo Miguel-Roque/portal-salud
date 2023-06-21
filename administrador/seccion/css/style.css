@@ -1,0 +1,76 @@
+.img-login-1{
+    height: 100%;
+    object-fit: cover;
+}
+.border-r{
+    border-radius: 100px;
+}
+.title-sd{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.boton-color{
+    background-color: #11475c;
+    border-radius: 30px;
+}
+.backgraund{
+    background-image: url(https://web.cetep.cl/wp-content/uploads/2021/08/nutri2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+.as-de{
+    height: fit-content;
+    height: 500px;
+}
+@media (max-width: 435px) { 
+    .as-de{
+        height: fit-content;
+    }
+}
+/*PLATILLOS*/
+.platillo{
+    background-color: #11475c;
+    min-width: 250px;
+    max-width: 350px;
+    border-radius: 30px;
+    margin: 20px 10px;
+    opacity: .9;
+    transition: .5s;
+}
+.platillo__name{
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    width: 100%; 
+}
+.platillo__img{
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+.platillo__descripcion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    color: rgb(180, 180, 180);
+}
+.platillo:hover{
+    opacity: 1;
+    transform: scale(1.08);
+}
+.contenido_platillos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*FORM CRUS*/
